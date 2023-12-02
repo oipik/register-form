@@ -1,11 +1,11 @@
-import Register from './components/Register';
+import PageRegister from './components/PageRegister';
 
 import './App.css';
 
 function App() {
     return (
         <div className="App">
-            <Register />
+            <PageRegister />
         </div>
     );
 }
