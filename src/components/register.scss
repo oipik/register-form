@@ -17,6 +17,15 @@
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    animation: pop-up 1s;
+}
+@keyframes pop-up {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 .error__message {
     color: red;
